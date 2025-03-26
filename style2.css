@@ -1,0 +1,277 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+   @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+   
+   .vt323-regular {
+       font-family: "VT323", monospace;
+       font-weight: 400;
+       font-style: normal;
+   }
+   
+   .fuzzy-bubbles-regular {
+       font-family: "Fuzzy Bubbles", sans-serif;
+       font-weight: 400;
+       font-style: normal;
+   }
+   
+   .fuzzy-bubbles-bold {
+       font-family: "Fuzzy Bubbles", sans-serif;
+       font-weight: 700;
+       font-style: normal;
+   }
+
+
+   .rubberBandAnimation:hover{
+    animation: rubberBand;
+    animation-duration: 0.5s;
+   }
+
+   .bounceAnimation:hover{
+    animation: bounce;
+    animation-duration: 0.5s;
+   }
+
+   @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+   
+@keyframes scrollBackground {
+    from {
+        background-position: 0% 0%;
+    }
+
+    to {
+        background-position: -25000% 25000%;
+    }
+}
+
+body {
+    cursor: url('./websiteResources/cursorSmall.png'), auto;
+    background-color: #d39dff;
+    background-color: #7ccfff;
+    color: #1a2c4d;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    background-image: url('./websiteResources/background.png');
+    background-repeat: repeat;
+    background-size: 25%;
+    animation: scrollBackground 25000s linear infinite;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+   a{
+    transition: all 0.2s ease;
+    color: #477cdf;
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+   }
+
+   a:hover, button:hover, select:hover{
+    cursor:help;
+    transition:0.3s;
+    color:#25b1db;
+    }
+
+   a:hover{
+    color: #ffffff;
+    background-color: #71a6b685;
+    text-decoration: none;
+   }
+
+   .navbar{
+    margin-top: 25px;
+
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .navbar a{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+   }
+
+   
+   h1 {
+       font-family: "VT323", monospace;
+       font-size: 50px;
+   }
+   
+   footer {
+       background-color: #0b8aa000;
+       color: #fff;
+       text-align: center;
+       padding: 20px;
+       margin-top: auto;
+   }
+   
+   
+   .container {
+       background-color: #ffffff00;
+       margin: auto;
+       margin-top: 128px;
+       animation: fadeEffect 1s;
+   }
+   
+   .borderColorAnimation {
+       border: 7.5px dashed;
+       animation: colorChange 5s infinite;
+   }
+   
+   @keyframes colorChange {
+   
+       0%,
+       100% {
+           border-color: #83dace;
+       }
+   
+       50% {
+           border-color: #f1e4a9;
+       }
+   }
+   
+   
+   .frame {
+       position: relative;
+   }
+   
+   .frameFill {
+       background-image: url('./websiteResources/frameFill2.png');
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: 100% 100%;
+   }
+   
+   .frame:after {
+       position: absolute;
+       top: -1px;
+       left: -1px;
+       right: -1px;
+       bottom: -10px;
+       content: '';
+       border-style: solid;
+       border-width: 70px;
+       pointer-events: none;
+       display: block;
+   }
+   
+   .frame:after {
+       border-image-source: url('./websiteResources/frame.png');
+       border-image-slice: 40;
+   }
+
+
+   .anchor-bottom-right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+  .anchor-top-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .anchor-top-right {
+    position: fixed; 
+    top: 0;
+    right: 0;
+  }
+
+  .anchor-bottom-left {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+  }
+
+
+
+
+
+
+/* start of music player */
+  #player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#currentTrack{
+    text-align: right;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.controls button, .controls select, #songList{
+    border-radius: 4px;
+    background-color: #4e6899;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+}
+
+#songList{
+    margin-top: 10px;
+    border-width: 2px;
+    border-color: #4CAF50;
+}
+
+.controls button img{
+    width: 20px;
+}
+
+#toggleRandom img{
+    background-image: url('./websiteResources/random.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.controls button img a{
+    height: 100%;
+    width: 100%;
+}
+
+.current-song {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.track-info {
+    margin-bottom: 10px;
+}
+
+#progress-container {
+    width: 100%;
+    max-width: 300px;
+    height: 5px;
+    background: #ddd;
+    cursor: pointer;
+    margin-top: 15px;
+    position: relative;
+}
+
+#progress {
+    height: 5px;
+    background: #70b4cf;
+    width: 0%;
+}

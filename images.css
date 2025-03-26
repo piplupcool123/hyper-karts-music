@@ -1,0 +1,54 @@
+@media (max-width: 825px) {
+    .hatsuneMiku {
+      display: none;
+    }
+  }
+@media (max-width: 768px) {
+    .hatsuneMiku {
+      display: none;
+    }
+  }
+
+@media (max-width: 599px) {
+  }
+  
+
+  @keyframes floatAnimation {
+    0%, 100% {
+      transform: translateY(0); /* Start and end at the original position */
+    }
+    50% {
+      transform: translateY(-20px); /* Move up 20 pixels */
+    }
+  }
+
+
+.hatsuneMiku{
+    width: 154px;
+    height: 237px;
+    margin: 50px;
+    background-image: url('/images/img_MIKU_us.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    animation: floatAnimation 3s ease-in-out infinite;
+}
+.hatsuneMiku:hover{
+    height: 283px;
+    background-image: url('/images/img_MIKU_us_text.png');
+}
+
+.oshawottImage{
+    float: right;
+    width: 100px;
+    margin-right: 100px;
+}
+
+.oshawotticeLogo1{
+    width:50%;
+}
+.oshawotticeLogo2{
+    margin: 10px;
+    max-height: 100px;
+}
