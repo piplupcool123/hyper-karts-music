@@ -162,7 +162,7 @@ function loadTrack(index, songSelected, started) {
 
     const downloadLink = document.getElementById('download');
     downloadLink.href = tracks[currentTrackIndex].file;
-    downloadLink.download = tracks[currentTrackIndex].name.replace(/\s+/g, '_') + ".mp3";
+    downloadLink.download = tracks[currentTrackIndex].name.replace(/\s+/g, '_') + ".ogg";
 }
 
 function playButtonColors(){
