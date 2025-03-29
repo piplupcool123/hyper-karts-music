@@ -8,6 +8,7 @@ let isRandom = false;
 let isLoop = false;
 
 var current = [
+    { name: "aircross-hoppingicon", file: "./current/aircross-hoppingicon.ogg" },
     { name: "banlandstadium-hoppingicon", file: "./current/banlandstadium-hoppingicon.ogg" },
     { name: "cakevalley-oshawottice", file: "./current/cakevalley-oshawottice.ogg" },
     { name: "citysidelake-oshawottice", file: "./current/citysidelake-oshawottice.ogg" },
@@ -19,6 +20,7 @@ var current = [
     { name: "nebuladistrict-oshawottice", file: "./current/nebuladistrict-oshawottice.ogg" },
     { name: "northglobe-oshawottice", file: "./current/northglobe-oshawottice.ogg" },
     { name: "shatteredsky-Req_NG", file: "./current/shatteredsky-Req_NG.mp3" },
+    { name: "skycitycircuit-Req_NG", file: "./current/skycitycircuit-Req_NG.ogg" },
     { name: "starryspeedway-Req_NG", file: "./current/starryspeedway-Req_NG.ogg" },
     { name: "sunshineharbor-hoppingicon", file: "./current/sunshineharbor-hoppingicon.ogg" },
     { name: "volcanicpowerplant-oshawottice", file: "./current/volcanicpowerplant-oshawottice.ogg" },
