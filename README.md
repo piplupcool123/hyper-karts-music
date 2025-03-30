@@ -3,6 +3,6 @@
 All music files in this repository — including compositions, audio files, and associated materials —  
 are licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-If you do give credit, give it to the composer, the game, or both!
+If you do decide to give credit, give it to the composer, the game, or both!
 
 custom ost in hrk 
