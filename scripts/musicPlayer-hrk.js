@@ -19,6 +19,7 @@ var current = [
     { name: "mallofrobloxia-oshawottice", file: "./current/mallofrobloxia-oshawottice.ogg" },
     { name: "nebuladistrict-oshawottice", file: "./current/nebuladistrict-oshawottice.ogg" },
     { name: "northglobe-oshawottice", file: "./current/northglobe-oshawottice.ogg" },
+    { name: "planetary8circuit-hoppingicon", file: "./current/planetary8circuit-hoppingicon.ogg" },
     { name: "shatteredsky-Req_NG", file: "./current/shatteredsky-Req_NG.mp3" },
     { name: "skycitycircuit-Req_NG", file: "./current/skycitycircuit-Req_NG.ogg" },
     { name: "starryspeedway-Req_NG", file: "./current/starryspeedway-Req_NG.ogg" },
