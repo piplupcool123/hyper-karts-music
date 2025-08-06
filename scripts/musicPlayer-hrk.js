@@ -9,7 +9,7 @@ let isLoop = false;
 
 var current = [
     { name: "aircross-hoppingicon", file: "./current/aircross-hoppingicon.ogg" },
-    { name: "arcticcircuit2-zephiris_nil", file: "./current/arcticcircuit2-zephiris_nil.ogg" },
+    { name: "arcticcircuit2-zephiris_nil", file: "./current/arcticcircuit2-zephiris_nil.mp3" },
     { name: "banlandstadium-hoppingicon", file: "./current/banlandstadium-hoppingicon.ogg" },
     { name: "cakevalley-oshawottice", file: "./current/cakevalley-oshawottice.ogg" },
     { name: "citysidelake-oshawottice", file: "./current/citysidelake-oshawottice.ogg" },
