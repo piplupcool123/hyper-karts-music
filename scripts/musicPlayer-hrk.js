@@ -9,6 +9,7 @@ let isLoop = false;
 
 var current = [
     { name: "aircross-hoppingicon", file: "./current/aircross-hoppingicon.ogg" },
+    { name: "arcticcircuit2-zephiris_nil", file: "./current/arcticcircuit2-zephiris_nil.ogg" },
     { name: "banlandstadium-hoppingicon", file: "./current/banlandstadium-hoppingicon.ogg" },
     { name: "cakevalley-oshawottice", file: "./current/cakevalley-oshawottice.ogg" },
     { name: "citysidelake-oshawottice", file: "./current/citysidelake-oshawottice.ogg" },
@@ -16,7 +17,9 @@ var current = [
     { name: "glowgloforest-oshawottice", file: "./current/glowgloforest-oshawottice.ogg" },
     { name: "graywaterskyway-oshawottice", file: "./current/graywaterskyway-oshawottice.ogg" },
     { name: "hyperracingcircuit-hoppingicon", file: "./current/hyperracingcircuit-hoppingicon.ogg" },
+    { name: "inkbeach-oshawottice", file: "./current/inkbeach-oshawottice.ogg" },
     { name: "mallofrobloxia-oshawottice", file: "./current/mallofrobloxia-oshawottice.ogg" },
+    { name: "masterspeedway-hoppingicon", file: "./current/masterspeedway-hoppingicon.ogg" },
     { name: "nebuladistrict-oshawottice", file: "./current/nebuladistrict-oshawottice.ogg" },
     { name: "northglobe-oshawottice", file: "./current/northglobe-oshawottice.ogg" },
     { name: "planetary8circuit-hoppingicon", file: "./current/planetary8circuit-hoppingicon.ogg" },
